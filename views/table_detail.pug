@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1(class='title') Закусочная
+  if (!table.booked)
+    p(class='state') #{table.number} стол свободен!
+    div(class='field')
+      input(class='name', type='text', placeholder="Введите ваше имя", id='elem1')
+      div(class='button', onclick="location.href = '" + table.url + "' + '/booked/' + document.getElementById('elem1').value") Забронировать
+  else
+    p(class='state') #{table.number} стол уже забронирован:(

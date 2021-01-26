@@ -1,0 +1,115 @@
+body {
+  padding: 50px;
+  font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(../images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.title {
+  font-family: 'Dancing Script';
+  font-size: 80px;
+  text-align: center;
+  color: white;
+}
+
+.title2 {
+  font-family: 'Dancing Script';
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.col-sm-2 {
+  float: right;
+  margin: auto;
+  position: absolute;
+}
+
+.col-sm-10 {
+  float: right;
+  margin: auto;
+  width: 980px;
+  height: 400px;
+}
+
+.info {
+  color: white;
+  text-align: center;
+}
+
+.table {
+  list-style-type: none;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.table-booked {
+  list-style-type: none;
+  background-color: gray;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.tables {
+  display: flex;
+  margin: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.table-number {
+  margin: 10px;
+  text-align: center;
+}
+
+.state {
+  text-align: center;
+  color: white;
+}
+
+.name {
+  width: 290px;
+  height: 40px;
+  border: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button {
+  margin-left: 300px;
+  width: 290px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.field {
+  height: 200px;
+  text-align: center;
+}
+
+.row {
+  position: fixed;
+  width: 1100px;
+}

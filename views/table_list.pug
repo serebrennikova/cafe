@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1(class='title') Закусочная
+  div(class='info')
+    p Выберите стол, который еще не забронировали
+    p Если стол окрашен в серый цвет, то его уже забронировали!
+  ul(class='tables')
+    each table in table_list
+        if (!table.booked)
+            div(class='table', onclick="location.href='" + table.url + "';")
+                p(class='table-number') #{table.number}
+        else
+            div(class='table-booked', onclick="location.href='" + table.url + "';")
+                p(class='table-number') #{table.number}
