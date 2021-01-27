@@ -113,3 +113,15 @@ a {
   position: fixed;
   width: 1100px;
 }
+
+.date {
+  width: 290px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.time {
+  width: 290px;
+  height: 40px;
+  margin-left: 5px;
+}

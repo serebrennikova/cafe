@@ -6,6 +6,8 @@ block content
     p(class='state') #{table.number} стол свободен!
     div(class='field')
       input(class='name', type='text', placeholder="Введите ваше имя", id='elem1')
+      input(class='date', type='date', placeholder="Введите дату", id='element2')
+      input(class='time', type='time', placeholder="Введите время", id='element3')
       div(class='button', onclick="location.href = '" + table.url + "' + '/booked/' + document.getElementById('elem1').value") Забронировать
   else
     p(class='state') #{table.number} стол уже забронирован:(
